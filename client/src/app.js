@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Change here
+// import { HashRouter as Router, Routes, Route } from "react-router-dom"; // Change here
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Profile from "./components/profile";
@@ -30,7 +31,7 @@ function App() {
 
         <main className="flex-grow-1">
       <Routes>
-        <Route path="/" element={<Profile />} />
+        <Route path="/My-Profile-Kajal" element={<Profile />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/services" element={<Services />} />

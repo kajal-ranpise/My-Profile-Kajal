@@ -5,8 +5,19 @@ import testimonial2 from "../assets/img/testimonials/testimonials-2.jpg";
 import testimonial3 from "../assets/img/testimonials/testimonials-3.jpg";
 import testimonial4 from "../assets/img/testimonials/testimonials-4.jpg";
 import testimonial5 from "../assets/img/testimonials/testimonials-5.jpg";
-
+function calculateAge(dob) {
+  const birthDate = new Date(dob);
+  const today = new Date();
+  let age = today.getFullYear() - birthDate.getFullYear();
+  const m = today.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+    age--;
+  }
+  return age;
+}
 function About() {
+const age = calculateAge("1996-09-25"); // YYYY-MM-DD format
+
   return (
     <main className="main about-page">
       {/* About Section */}
@@ -14,8 +25,7 @@ function About() {
         <div className="container section-title" data-aos="fade-up">
           <h2>About</h2>
           <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
+            I am a Full Stack Developer specializing in React.js (frontend) and Node.js/Express (backend) with strong experience in end-to-end web development.
           </p>
         </div>
 
@@ -25,10 +35,9 @@ function About() {
               <img src={profileImg} className="img-fluid" alt="Profile" />
             </div>
             <div className="col-lg-8 content">
-              <h2>UI/UX Designer &amp; Web Developer.</h2>
+              <h2>Full Stack &amp; Web Developer</h2>
               <p className="fst-italic py-3">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               To stay ahead, I integrate AI-powered tools into my workflow – leveraging ChatGPT for brainstorming, documentation, and debugging, and GitHub Copilot for accelerating development. This allows me to deliver high-quality code faster and focus more on solving complex business problems.
               </p>
 
               <div className="row">
@@ -36,19 +45,19 @@ function About() {
                   <ul>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Birthday:</strong> <span>1 May 1995</span>
+                      <strong>Birthday:</strong> <span>25 Sep 1996</span>
                     </li>
-                    <li>
+                 {/*    <li>
                       <i className="bi bi-chevron-right"></i>{" "}
                       <strong>Website:</strong> <span>www.example.com</span>
+                    </li> */}
+                    <li>
+                      <i className="bi bi-chevron-right"></i>{" "}
+                      <strong>Phone:</strong> <span>+91 7040147091</span>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Phone:</strong> <span>+123 456 7890</span>
-                    </li>
-                    <li>
-                      <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>City:</strong> <span>New York, USA</span>
+                      <strong>City:</strong> <span>Pune, MH, IN</span>
                     </li>
                   </ul>
                 </div>
@@ -56,30 +65,26 @@ function About() {
                   <ul>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Age:</strong> <span>30</span>
+                      <strong>Age:</strong> <span>{age}</span>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Degree:</strong> <span>Master</span>
+                      <strong>Degree:</strong> <span>Bachelor of Engineering (Computer)</span>
                     </li>
                     <li>
                       <i className="bi bi-chevron-right"></i>{" "}
-                      <strong>Email:</strong> <span>email@example.com</span>
+                      <strong>Email:</strong> <span>kajaldranpise@gmail.com</span>
                     </li>
-                    <li>
+                   {/*  <li>
                       <i className="bi bi-chevron-right"></i>{" "}
                       <strong>Freelance:</strong> <span>Available</span>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
 
               <p className="py-3">
-                Officiis eligendi itaque labore et dolorum mollitia officiis
-                optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium
-                dolor incidunt officia tempore. Et eius omnis. Cupiditate ut
-                dicta maxime officiis quidem quia. Sed et consectetur qui quia
-                repellendus itaque neque.
+                Results-driven and detail-oriented MERN Stack Developer with hands-on experience in designing, developing, and maintaining scalable web applications using Express.js, React.js, Node.js, MySQL, and MongoDB. Proficient in RESTful APIs, modern front-end frameworks, CI/CD pipelines, and deployment (Hostinger and DigitalOcean). Adept at collaborating with cross-functional teams to deliver high-quality, user-focused solutions in Agile environments.
               </p>
             </div>
           </div>
@@ -90,10 +95,9 @@ function About() {
       {/* Skills Section */}
       <section id="skills" className="skills section">
         <div className="container section-title" data-aos="fade-up">
-          <h2>Skills</h2>
+          <h2>Skills & Expertise</h2>
           <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
+            Technologies and tools I use to design, build, and optimize applications.
           </p>
         </div>
 
@@ -124,8 +128,10 @@ function About() {
             </div>
 
             <div className="col-lg-6">
+
+              
               {[
-                { name: "PHP", val: "80" },
+                { name: "PHP", val: "50" },
                 { name: "WordPress/CMS", val: "90" },
                 { name: "Photoshop", val: "55" },
               ].map((skill, i) => (
