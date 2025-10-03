@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/My-Profile-Kajal/static/css/main.1c5dcd19.css",
-    "main.js": "/My-Profile-Kajal/static/js/main.7f33634b.js",
+    "main.js": "/My-Profile-Kajal/static/js/main.0bc499fc.js",
     "static/js/437.ed06756c.chunk.js": "/My-Profile-Kajal/static/js/437.ed06756c.chunk.js",
     "static/js/604.a5b48a9b.chunk.js": "/My-Profile-Kajal/static/js/604.a5b48a9b.chunk.js",
-    "static/media/profile-img.jpg": "/My-Profile-Kajal/static/media/profile-img.10cdf7995495435221cd.jpg",
+    "static/media/hero-bg.jpg": "/My-Profile-Kajal/static/media/hero-bg.1ff56522c6fc9b5f3319.jpg",
+    "static/media/profile-img.jpg": "/My-Profile-Kajal/static/media/profile-img.073be34858d4cc2d7e52.jpg",
     "static/media/bootstrap-icons.woff?": "/My-Profile-Kajal/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/masonry-portfolio-2.jpg": "/My-Profile-Kajal/static/media/masonry-portfolio-2.c082025dddeb09057e14.jpg",
     "static/media/bootstrap-icons.woff2?": "/My-Profile-Kajal/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
-    "static/media/hero-bg.jpg": "/My-Profile-Kajal/static/media/hero-bg.bf68ffbe5c0415cb26e9.jpg",
     "static/media/books-1.jpg": "/My-Profile-Kajal/static/media/books-1.0cdba8895456d133d483.jpg",
     "static/media/app-1.jpg": "/My-Profile-Kajal/static/media/app-1.802eed785283b8b9771e.jpg",
     "static/media/product-1.jpg": "/My-Profile-Kajal/static/media/product-1.3975dff84a3e21a541e2.jpg",
@@ -22,12 +22,12 @@
     "static/media/testimonials-3.jpg": "/My-Profile-Kajal/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
     "index.html": "/My-Profile-Kajal/index.html",
     "main.1c5dcd19.css.map": "/My-Profile-Kajal/static/css/main.1c5dcd19.css.map",
-    "main.7f33634b.js.map": "/My-Profile-Kajal/static/js/main.7f33634b.js.map",
+    "main.0bc499fc.js.map": "/My-Profile-Kajal/static/js/main.0bc499fc.js.map",
     "437.ed06756c.chunk.js.map": "/My-Profile-Kajal/static/js/437.ed06756c.chunk.js.map",
     "604.a5b48a9b.chunk.js.map": "/My-Profile-Kajal/static/js/604.a5b48a9b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c5dcd19.css",
-    "static/js/main.7f33634b.js"
+    "static/js/main.0bc499fc.js"
   ]
 }
