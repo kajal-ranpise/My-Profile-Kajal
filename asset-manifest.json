@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Profile-Kajal/static/css/main.1c5dcd19.css",
-    "main.js": "/My-Profile-Kajal/static/js/main.b7ceb013.js",
+    "main.js": "/My-Profile-Kajal/static/js/main.36a1758f.js",
     "static/js/437.ed06756c.chunk.js": "/My-Profile-Kajal/static/js/437.ed06756c.chunk.js",
     "static/js/604.a5b48a9b.chunk.js": "/My-Profile-Kajal/static/js/604.a5b48a9b.chunk.js",
     "static/media/hero-bg.jpg": "/My-Profile-Kajal/static/media/hero-bg.1ff56522c6fc9b5f3319.jpg",
@@ -22,12 +22,12 @@
     "static/media/testimonials-3.jpg": "/My-Profile-Kajal/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
     "index.html": "/My-Profile-Kajal/index.html",
     "main.1c5dcd19.css.map": "/My-Profile-Kajal/static/css/main.1c5dcd19.css.map",
-    "main.b7ceb013.js.map": "/My-Profile-Kajal/static/js/main.b7ceb013.js.map",
+    "main.36a1758f.js.map": "/My-Profile-Kajal/static/js/main.36a1758f.js.map",
     "437.ed06756c.chunk.js.map": "/My-Profile-Kajal/static/js/437.ed06756c.chunk.js.map",
     "604.a5b48a9b.chunk.js.map": "/My-Profile-Kajal/static/js/604.a5b48a9b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c5dcd19.css",
-    "static/js/main.b7ceb013.js"
+    "static/js/main.36a1758f.js"
   ]
 }
