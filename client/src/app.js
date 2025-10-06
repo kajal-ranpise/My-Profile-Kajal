@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Ch
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Profile from "./components/profile";
-import PortfolioDetails from "./components/portfolio-details";
+import ProjectDetails from "./components/project-details";
 import About from "./components/about";
 import Resume from "./components/resume";
 import Services from "./components/services";
-import Portfolio from "./components/portfolio";
+import Projects from "./components/projects";
 import Contact from "./components/contact";
 
 // Import JS for vendors
@@ -35,8 +35,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/portfolio-details" element={<PortfolioDetails />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/project-details" element={<ProjectDetails />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
         </main>

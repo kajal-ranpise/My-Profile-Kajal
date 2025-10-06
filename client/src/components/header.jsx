@@ -8,7 +8,7 @@ function Header() {
     { path: "/about", label: "About" },
     { path: "/resume", label: "Resume" },
     { path: "/services", label: "Services" },
-    { path: "/portfolio", label: "Portfolio" },
+    { path: "/projects", label: "Projects" },
     { path: "/contact", label: "Contact" },
   ];
 
