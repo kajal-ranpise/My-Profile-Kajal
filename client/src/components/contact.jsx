@@ -15,8 +15,7 @@ function Contact() {
         <div className="container section-title" data-aos="fade-up">
           <h2>Contact</h2>
           <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
+           Let’s create something amazing together — drop me a message!
           </p>
         </div>
 
@@ -62,7 +61,13 @@ function Contact() {
 
             {/* Right Contact Form */}
             <div className="col-lg-7">
-              <form className="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <form   action="https://formspree.io/f/xpwylbvg" // <-- Replace with your Formspree URL
+                  method="POST"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  className="php-email-form" 
+                  data-aos="fade-up" 
+                  data-aos-delay="200">
                 <div className="row gy-4">
                   <div className="col-md-6">
                     <label htmlFor="name-field" className="pb-2">
