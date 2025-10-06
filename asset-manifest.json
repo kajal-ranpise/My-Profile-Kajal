@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-Profile-Kajal/static/css/main.1c5dcd19.css",
-    "main.js": "/My-Profile-Kajal/static/js/main.d3c58ce4.js",
+    "main.js": "/My-Profile-Kajal/static/js/main.23935d4c.js",
     "static/js/437.923ca42c.chunk.js": "/My-Profile-Kajal/static/js/437.923ca42c.chunk.js",
     "static/js/604.17586cba.chunk.js": "/My-Profile-Kajal/static/js/604.17586cba.chunk.js",
     "static/media/hero-bg.jpg": "/My-Profile-Kajal/static/media/hero-bg.1ff56522c6fc9b5f3319.jpg",
@@ -9,20 +9,16 @@
     "static/media/bootstrap-icons.woff?": "/My-Profile-Kajal/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/masonry-portfolio-2.jpg": "/My-Profile-Kajal/static/media/masonry-portfolio-2.c082025dddeb09057e14.jpg",
     "static/media/bootstrap-icons.woff2?": "/My-Profile-Kajal/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
-    "static/media/books-1.jpg": "/My-Profile-Kajal/static/media/books-1.0cdba8895456d133d483.jpg",
-    "static/media/app-1.jpg": "/My-Profile-Kajal/static/media/app-1.802eed785283b8b9771e.jpg",
-    "static/media/product-1.jpg": "/My-Profile-Kajal/static/media/product-1.3975dff84a3e21a541e2.jpg",
-    "static/media/branding-1.jpg": "/My-Profile-Kajal/static/media/branding-1.998d6e9893f2fbaedd76.jpg",
     "static/media/masonry-portfolio-1.jpg": "/My-Profile-Kajal/static/media/masonry-portfolio-1.f8a4f20b1b6d6ee85702.jpg",
     "static/media/masonry-portfolio-3.jpg": "/My-Profile-Kajal/static/media/masonry-portfolio-3.fc9e27e7017aebbcbf06.jpg",
     "index.html": "/My-Profile-Kajal/index.html",
     "main.1c5dcd19.css.map": "/My-Profile-Kajal/static/css/main.1c5dcd19.css.map",
-    "main.d3c58ce4.js.map": "/My-Profile-Kajal/static/js/main.d3c58ce4.js.map",
+    "main.23935d4c.js.map": "/My-Profile-Kajal/static/js/main.23935d4c.js.map",
     "437.923ca42c.chunk.js.map": "/My-Profile-Kajal/static/js/437.923ca42c.chunk.js.map",
     "604.17586cba.chunk.js.map": "/My-Profile-Kajal/static/js/604.17586cba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c5dcd19.css",
-    "static/js/main.d3c58ce4.js"
+    "static/js/main.23935d4c.js"
   ]
 }
